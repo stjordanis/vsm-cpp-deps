@@ -1,0 +1,11 @@
+prefix=/opt/ugcs-deps/toolchain/linux/unittest-cpp
+exec_prefix=/opt/ugcs-deps/toolchain/linux/unittest-cpp/bin
+libdir=/opt/ugcs-deps/toolchain/linux/unittest-cpp/lib
+includedir=/opt/ugcs-deps/toolchain/linux/unittest-cpp/include/UnitTest++
+
+Name: UnitTest++
+Description: UnitTest++ is a simple C++ Unit Test Framework
+URL: https://github.com/unittest-cpp/unittest-cpp
+Version: 
+Libs: -L${libdir} -lUnitTest++
+Cflags: -I${includedir}/

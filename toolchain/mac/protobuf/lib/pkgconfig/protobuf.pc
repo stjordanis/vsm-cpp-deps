@@ -1,0 +1,11 @@
+prefix=/Users/janis/install/protobuf
+exec_prefix=/Users/janis/install/protobuf
+libdir=/Users/janis/install/protobuf/lib
+includedir=/Users/janis/install/protobuf/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.6.1
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir} 
+Conflicts: protobuf-lite
